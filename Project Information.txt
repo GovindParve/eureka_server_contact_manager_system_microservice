@@ -1,0 +1,25 @@
+Microservices
+
+http://localhost:8080/users/
+
+1. user service
+	server.port=9001
+
+
+2. contact service
+	server.port=9002
+
+http://localhost:8761
+3. eureka_server service
+	server:
+  		port: 8761
+
+http://localhost:8999/user/1313
+
+4. api_gateway
+	server:
+  		port: 8999
+
+
+
+
